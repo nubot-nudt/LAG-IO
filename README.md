@@ -36,7 +36,7 @@ data/
 └── 20250219/       # Construction site and Offroad
 ```
 
-Each recording contains `FL/`, `FR/`, `RL/`, `RR/`, `gins/`, and `robot/`. File names and formats are described in [docs/data-format.md](docs/data-format.md). 
+Each recording contains `FL/`, `FR/`, `RL/`, `RR/`, `gins/`, and `robot/`. File names and formats are described in [data_format](docs/data-format.md). 
 
 ## Run
 
