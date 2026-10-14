@@ -1,5 +1,5 @@
 # LAG-IO
-[Paper (arXiv)](coming soon) · [Dataset](https://drive.google.com/drive/folders/1-oUQhmWwudjDG4DhdiOnmrlgEyQkSMgb?usp=sharing)
+[Paper (arXiv)](http://arxiv.org/abs/2610.17870) · [Dataset](https://drive.google.com/drive/folders/1-oUQhmWwudjDG4DhdiOnmrlgEyQkSMgb?usp=sharing)
 
 
 **Multi-IMU State Estimation for Legged Robots Using Factor Graphs**
