@@ -1,0 +1,10 @@
+/build*/
+/bin/
+/lib/
+/data
+/output*/
+/.vscode/
+/.idea/
+/.venv/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,13 @@
+name: build
+on: [push, pull_request]
+jobs:
+  linux:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y libboost-all-dev
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build -j2
+      - run: ./build/lag_io --help
+      - run: python3 -m pip install -r scripts/requirements.txt
+      - run: python3 scripts/plot_trajectory.py --help

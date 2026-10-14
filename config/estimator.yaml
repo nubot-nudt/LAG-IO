@@ -1,0 +1,33 @@
+imudatalen: 7
+imudatarate: 200
+initAlignmentTime: 10
+initposstd: [0.05, 0.05, 0.05]
+initvelstd: [0.05, 0.05, 0.05]
+initattstd: [1.0, 1.0, 0.5]
+fl_imu_leverarm: [0, 0.03, 0.044]
+fr_imu_leverarm: [0, -0.03, 0.044]
+rl_imu_leverarm: [0, 0.03, 0.044]
+rr_imu_leverarm: [0, -0.03, 0.044]
+zupt_std: [0.01, 0.01, 0.01]
+zupt_dt: 0.025
+if_use_multi_imu_constraint: true
+relpos_std: 0.6
+rotmat: [1, 0, 0, 0, -1, 0, 0, 0, -1]
+base_in_bodyimu: [0.0, 0.0, 0.1]
+robotpara: {ox: 0.1934, oy: 0.0465, ot: 0.0955, lc: 0.213, lt: 0.213}
+relinearizeThreshold: 0.1
+relinearizeSkip: 1
+if_enableRelinearization: false
+if_evaluateNonlinearError: false
+if_cacheLinearizedFactors: true
+graph_imunoise:
+  sigma_g: [0.001, 0.001, 0.001]
+  sigma_a: [1, 1.3, 1]
+  sigma_bg: [4e-3, 4e-3, 4e-3]
+  sigma_ba: [0.08, 0.3, 0.03]
+smoother_lag: 0.2
+kde: {acc_delta: 1.5, acc_bandwidth_floor: 1.0e-06, gravity_tolerance: 4.0, contact_threshold: 0.1}
+leg_preintegration: {acc_noise_scale: 15.0, acc_bias_noise_scale: 10.0}
+init_acc_bias_std: [0.02, 0.02, 0.02]
+init_gyro_bias_std: [9.69627362219072e-05, 9.69627362219072e-05, 9.69627362219072e-05]
+max_keyframe_interval: 0.1

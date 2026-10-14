@@ -1,0 +1,11 @@
+estimator: estimator.yaml
+datapath: ../data/20250218-2
+outputpath: ../output/Grass
+imu_FL: FL/Mean_imu_synced_align.bin
+imu_FR: FR/Mean_imu_synced_align.bin
+imu_RL: RL/Mean_imu_synced_align.bin
+imu_RR: RR/Mean_imu_synced_align.bin
+imu_Body: gins/HL20250218224424_ICM_0_IMU_align.bin
+robotsensor: robot/go2_sensor_synced_align.bin
+starttime: 254884
+endtime: 254987

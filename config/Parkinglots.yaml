@@ -1,0 +1,11 @@
+estimator: estimator.yaml
+datapath: ../data/20250218-1
+outputpath: ../output/Parkinglots
+imu_FL: FL/Mean_imu_synced_align.bin
+imu_FR: FR/Mean_imu_synced_align.bin
+imu_RL: RL/Mean_imu_synced_align.bin
+imu_RR: RR/Mean_imu_synced_align.bin
+imu_Body: gins/HL20250218211606_ICM_0_IMU_align.bin
+robotsensor: robot/go2_sensor_synced_align.bin
+starttime: 250046
+endtime: 250403
